@@ -7,7 +7,8 @@ c.ServerProxy.servers = {
         'port': 3000,
         'timeout': 120,
         'launcher_entry': {
-            'title': 'Genie'
+            'title': 'Genie',
+            'icon_path': '/home/jovyan/.jupyter/genie.svg'
         },
     },
 }

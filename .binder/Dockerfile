@@ -20,4 +20,6 @@ RUN pip install --no-cache jupyter-server-proxy
 #RUN pip install --no-cache numpy matplotlib ipywidgets
 
 ADD .jupyter/jupyter_notebook_config.py $HOME/.jupyter/jupyter_notebook_config.py
+ADD .jupyter/genie.svg $HOME/.jupyter/genie.svg
+
 #COPY notebooks/*.ipynb /home/${NB_USER}
