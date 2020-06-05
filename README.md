@@ -1,13 +1,14 @@
 # ou-s397-unoffical
 Unofficial container for OU Module S397.
 
+View using MyBinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/ouseful-course-containers/ou-s397-unofficial/master)
+
 This builds on the officially released container by adding a Jupyter server to it it.
 
 You can access the Genie application used in the course via the notebook homepage New menu:
 
 ![](.images/jupyter_genie.png)
 
-View using MyBinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/ouseful-course-containers/ou-s397-unofficial/master)
 
 ## Getting Started
 You can explore the contents of this repository via interactive Jupyter notebooks by clicking the *Binder* button above.
