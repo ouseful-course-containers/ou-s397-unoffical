@@ -9,6 +9,13 @@ You can access the Genie application used in the course via the notebook homepag
 
 ![](.images/jupyter_genie.png)
 
+Or in JupyterLab:
+
+![](.images/jupyterlab_genie.png)
+
+If you open the Genie application in JupyterLab, you can also open a Jupyter notebook alongside that might contain instructional text to guide the activity, for example...
+
+![](.images/JupyterLab_genie2.png)
 
 ## Getting Started
 You can explore the contents of this repository via interactive Jupyter notebooks by clicking the *Binder* button above.
