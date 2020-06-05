@@ -16,7 +16,9 @@ USER $NB_USER
 WORKDIR $HOME
 COPY --from=0 /home/genie/node_app ./genie/
 
-RUN pip install --no-cache jupyter-server-proxy 
+RUN pip install --no-cache jupyter-server-proxy
+RUN jupyter labextension install @jupyterlab/server-proxy
+
 #RUN pip install --no-cache numpy matplotlib ipywidgets
 
 ADD .jupyter/jupyter_notebook_config.py $HOME/.jupyter/jupyter_notebook_config.py

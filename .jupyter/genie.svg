@@ -7,34 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="genie.svg"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   id="svg8"
+   width="16.392162mm"
+   height="16.392162mm"
+   viewBox="0 0 16.392162 16.392162"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   id="svg8"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="genie.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:window-height="827"
-     inkscape:window-width="1252"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="345.73839"
-     inkscape:cx="230.73308"
-     inkscape:zoom="0.67263141"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.67263141"
+     inkscape:cx="202.98582"
+     inkscape:cy="323.93792"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1252"
+     inkscape:window-height="827"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -48,25 +52,26 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     transform="translate(-7.3414615,-5.7680419)"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <text
-       id="text12"
-       y="48.776093"
-       x="47.596027"
+       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="48.776093"
-         x="47.596027"
+       x="11.407312"
+       y="17.701"
+       id="text12"><tspan
+         sodipodi:role="line"
          id="tspan10"
-         sodipodi:role="line">G</tspan></text>
+         x="11.407312"
+         y="17.701"
+         style="stroke-width:0.264583">G</tspan></text>
     <circle
-       r="8.0637894"
-       cy="45.039215"
-       cx="51.726257"
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
        id="path843"
-       style="fill:none;stroke:#000000;stroke-width:0.264583" />
+       cx="15.537542"
+       cy="13.964123"
+       r="8.0637894" />
   </g>
 </svg>

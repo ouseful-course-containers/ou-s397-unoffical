@@ -10,5 +10,6 @@ c.ServerProxy.servers = {
             'title': 'Genie',
             'icon_path': '/home/jovyan/.jupyter/genie.svg'
         },
+        'new_browser_tab': False
     },
 }
