@@ -4,8 +4,7 @@
 
 FROM ouimd/genie_app
 
-#FROM ousefulcoursecontainers/oubrandednotebook
-FROM ousefuldemos/s397nb
+FROM ousefulcoursecontainers/oubrandednotebook
 
 USER root
 RUN apt update \
@@ -14,16 +13,11 @@ RUN apt update \
     && apt-get install -y nodejs
 
 USER $NB_USER
-
 WORKDIR $HOME
 COPY --from=0 /home/genie/node_app ./genie/
 
-RUN pip install --no-cache jupyter-server-proxy
-RUN mkdir -p $HOME/.jupyter/
-ADD jupyter_notebook_config.py $HOME/.jupyter/
-
+RUN pip install --no-cache jupyter-server-proxy 
 #RUN pip install --no-cache numpy matplotlib ipywidgets
 
+ADD .jupyter/jupyter_notebook_config.py $HOME/.jupyter/jupyter_notebook_config.py
 #COPY notebooks/*.ipynb /home/${NB_USER}
-
-USER ${USER}
